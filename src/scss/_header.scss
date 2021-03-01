@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: $header-background;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLogoContainer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 48px;
+}
+.headerIconContainer {
+  align-items: center;
+  display: flex;
+  //margin: auto;
+}
+.headerIcon {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.headerIcon img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.userIcon img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+//desktop
+@media (min-width: 600px) {
+  .header {
+    height: 15vh;
+  }
+  .headerLogoContainer {
+    font-size: 80px;
+  }
+  .headerIcon {
+    margin: 20px;
+  }
+  .headerIcon img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .userIcon img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}

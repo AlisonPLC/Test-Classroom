@@ -1,0 +1,10 @@
+@import "_color.scss";
+@import "_header.scss";
+@import "_body.scss";
+@import "_consult.scss";
+@import "_registrate.scss";
+
+* {
+  font-family: "Asap", sans-serif;
+  color: $words-collor;
+}

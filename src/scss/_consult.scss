@@ -1,0 +1,62 @@
+a {
+  text-decoration: none;
+}
+.consultMenu {
+  padding-top: 15px;
+  display: flex;
+  border: 1px solid #00000029;
+  padding-bottom: 15px;
+}
+.classMenuButton_consult {
+  width: 150px;
+  height: 45px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+}
+.classMenuButton_consult:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.classMenuButtonMargin_consult {
+  height: 10px;
+}
+.classMenuButtonMargin_voltar {
+  height: 5px;
+}
+.consultMenuVoltar {
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+}
+.table {
+  width: 100%;
+  max-height: 35em;
+}
+.table_description {
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list_item {
+  margin: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+}
+.list_item div {
+}
+.list_item_border {
+  margin: 1em;
+}
+.list_item_name {
+}
